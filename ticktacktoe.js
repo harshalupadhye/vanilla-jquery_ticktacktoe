@@ -45,3 +45,7 @@ $('td').click(function(){
 $('td').dblclick(function(){
     $(this).text("o")
 })
+$('input').on('click',function(){
+    $('body').fadeOut(3000);
+    
+})
